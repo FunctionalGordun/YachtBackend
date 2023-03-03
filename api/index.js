@@ -9,9 +9,9 @@ const connectBot = require('../bot/index');
 const frontendRoutes = require('../routes/frontendRoutes');
 const eventsRoutes = require('../routes/eventsRoutes');
 
-// connectBot();
+connectBot();
 
-connectDB();
+// connectDB();
 const app = express();
 
 // error logging

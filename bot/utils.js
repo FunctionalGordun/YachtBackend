@@ -13,7 +13,7 @@ const getEventMessage = ({title, date, description, price, capacity}) => {
 const getEventInlineKeyboard = (id) => {
   return {
     inline_keyboard: [
-      [{ text: 'Забронировать', web_app: {url: `${process.env.WEB_APP_URL}?eventId=${id}`} }],
+      [{ text: 'Забронировать', web_app: {url: `${process.env.WEB_APP_URL}?eventId=${id}`, title:'YTEET'} }],
       [{ text: 'Подробнее', callback_data: 'moreinfo' }],
     ]
   }
