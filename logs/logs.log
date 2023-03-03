@@ -1,0 +1,1470 @@
+{
+  meta: {
+    error: Error: This is a custom error
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js:77:9
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:137:13)
+        at Route.dispatch (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:112:3)
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:281:22
+        at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)
+        at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)
+        at cors (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:188:7)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:224:17
+        at originCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:214:15)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:219:13
+        at optionsCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:199:9)
+        at corsMiddleware (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:204:7)
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:284:7
+        at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)
+        at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)
+        at jsonParser (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js:110:7)
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13),
+    level: 'error',
+    message: 'uncaughtException: This is a custom error\n' +
+      'Error: This is a custom error\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js:77:9\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:137:13)\n' +
+      '    at Route.dispatch (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:112:3)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:281:22\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at cors (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:188:7)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:224:17\n' +
+      '    at originCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:214:15)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:219:13\n' +
+      '    at optionsCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:199:9)\n' +
+      '    at corsMiddleware (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:204:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:284:7\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at jsonParser (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js:110:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)',
+    stack: 'Error: This is a custom error\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js:77:9\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:137:13)\n' +
+      '    at Route.dispatch (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:112:3)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:281:22\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at cors (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:188:7)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:224:17\n' +
+      '    at originCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:214:15)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:219:13\n' +
+      '    at optionsCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:199:9)\n' +
+      '    at corsMiddleware (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:204:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:284:7\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at jsonParser (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js:110:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)',
+    exception: true,
+    date: 'Sun Feb 26 2023 13:29:53 GMT+0400 (Персидский залив)',
+    process: {
+      pid: 12537,
+      uid: 502,
+      gid: 20,
+      cwd: '/Users/gordungordey_1/Desktop/zoonyanya/backend',
+      execPath: '/usr/local/bin/node',
+      version: 'v14.20.0',
+      argv: [
+        '/usr/local/bin/node',
+        '/Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js'
+      ],
+      memoryUsage: {
+        rss: 75984896,
+        heapTotal: 31244288,
+        heapUsed: 27587544,
+        external: 19960987,
+        arrayBuffers: 18311400
+      }
+    },
+    os: {
+      loadavg: [ 3.49365234375, 3.8125, 4.04541015625 ],
+      uptime: 4154735
+    },
+    trace: [
+      {
+        column: 9,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js',
+        function: null,
+        line: 77,
+        method: null,
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js',
+        function: 'next',
+        line: 137,
+        method: null,
+        native: false
+      },
+      {
+        column: 3,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js',
+        function: 'Route.dispatch',
+        line: 112,
+        method: 'dispatch',
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 22,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: null,
+        line: 281,
+        method: null,
+        native: false
+      },
+      {
+        column: 12,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'Function.process_params',
+        line: 335,
+        method: 'process_params',
+        native: false
+      },
+      {
+        column: 10,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'next',
+        line: 275,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'cors',
+        line: 188,
+        method: null,
+        native: false
+      },
+      {
+        column: 17,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: null,
+        line: 224,
+        method: null,
+        native: false
+      },
+      {
+        column: 15,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'originCallback',
+        line: 214,
+        method: null,
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: null,
+        line: 219,
+        method: null,
+        native: false
+      },
+      {
+        column: 9,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'optionsCallback',
+        line: 199,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'corsMiddleware',
+        line: 204,
+        method: null,
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'trim_prefix',
+        line: 317,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: null,
+        line: 284,
+        method: null,
+        native: false
+      },
+      {
+        column: 12,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'Function.process_params',
+        line: 335,
+        method: 'process_params',
+        native: false
+      },
+      {
+        column: 10,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'next',
+        line: 275,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js',
+        function: 'jsonParser',
+        line: 110,
+        method: null,
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'trim_prefix',
+        line: 317,
+        method: null,
+        native: false
+      }
+    ],
+    req: {
+      url: '/error',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5055',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/error',
+      query: {}
+    }
+  },
+  level: 'error',
+  message: 'middlewareError',
+  timestamp: '2023-02-26T09:29:53.807Z'
+}
+{
+  meta: {
+    error: Error: This is a custom error
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js:77:9
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:137:13)
+        at Route.dispatch (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:112:3)
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:281:22
+        at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)
+        at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)
+        at cors (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:188:7)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:224:17
+        at originCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:214:15)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:219:13
+        at optionsCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:199:9)
+        at corsMiddleware (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:204:7)
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:284:7
+        at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)
+        at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)
+        at jsonParser (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js:110:7)
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13),
+    level: 'error',
+    message: 'uncaughtException: This is a custom error\n' +
+      'Error: This is a custom error\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js:77:9\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:137:13)\n' +
+      '    at Route.dispatch (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:112:3)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:281:22\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at cors (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:188:7)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:224:17\n' +
+      '    at originCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:214:15)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:219:13\n' +
+      '    at optionsCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:199:9)\n' +
+      '    at corsMiddleware (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:204:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:284:7\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at jsonParser (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js:110:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)',
+    stack: 'Error: This is a custom error\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js:77:9\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:137:13)\n' +
+      '    at Route.dispatch (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:112:3)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:281:22\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at cors (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:188:7)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:224:17\n' +
+      '    at originCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:214:15)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:219:13\n' +
+      '    at optionsCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:199:9)\n' +
+      '    at corsMiddleware (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:204:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:284:7\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at jsonParser (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js:110:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)',
+    exception: true,
+    date: 'Sun Feb 26 2023 13:50:26 GMT+0400 (Персидский залив)',
+    process: {
+      pid: 12907,
+      uid: 502,
+      gid: 20,
+      cwd: '/Users/gordungordey_1/Desktop/zoonyanya/backend',
+      execPath: '/usr/local/bin/node',
+      version: 'v14.20.0',
+      argv: [
+        '/usr/local/bin/node',
+        '/Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js'
+      ],
+      memoryUsage: {
+        rss: 71761920,
+        heapTotal: 30457856,
+        heapUsed: 28471120,
+        external: 19993188,
+        arrayBuffers: 18343601
+      }
+    },
+    os: {
+      loadavg: [ 4.73486328125, 4.03515625, 3.91357421875 ],
+      uptime: 4155968
+    },
+    trace: [
+      {
+        column: 9,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js',
+        function: null,
+        line: 77,
+        method: null,
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js',
+        function: 'next',
+        line: 137,
+        method: null,
+        native: false
+      },
+      {
+        column: 3,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js',
+        function: 'Route.dispatch',
+        line: 112,
+        method: 'dispatch',
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 22,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: null,
+        line: 281,
+        method: null,
+        native: false
+      },
+      {
+        column: 12,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'Function.process_params',
+        line: 335,
+        method: 'process_params',
+        native: false
+      },
+      {
+        column: 10,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'next',
+        line: 275,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'cors',
+        line: 188,
+        method: null,
+        native: false
+      },
+      {
+        column: 17,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: null,
+        line: 224,
+        method: null,
+        native: false
+      },
+      {
+        column: 15,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'originCallback',
+        line: 214,
+        method: null,
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: null,
+        line: 219,
+        method: null,
+        native: false
+      },
+      {
+        column: 9,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'optionsCallback',
+        line: 199,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'corsMiddleware',
+        line: 204,
+        method: null,
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'trim_prefix',
+        line: 317,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: null,
+        line: 284,
+        method: null,
+        native: false
+      },
+      {
+        column: 12,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'Function.process_params',
+        line: 335,
+        method: 'process_params',
+        native: false
+      },
+      {
+        column: 10,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'next',
+        line: 275,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js',
+        function: 'jsonParser',
+        line: 110,
+        method: null,
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'trim_prefix',
+        line: 317,
+        method: null,
+        native: false
+      }
+    ],
+    req: {
+      url: '/error',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5055',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/error',
+      query: {}
+    }
+  },
+  level: 'error',
+  message: 'middlewareError',
+  timestamp: '2023-02-26T09:50:26.754Z'
+}
+{
+  meta: {
+    error: Error: This is a custom error
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js:77:9
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:137:13)
+        at Route.dispatch (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:112:3)
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:281:22
+        at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)
+        at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)
+        at cors (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:188:7)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:224:17
+        at originCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:214:15)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:219:13
+        at optionsCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:199:9)
+        at corsMiddleware (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:204:7)
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:284:7
+        at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)
+        at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)
+        at jsonParser (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js:110:7)
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13),
+    level: 'error',
+    message: 'uncaughtException: This is a custom error\n' +
+      'Error: This is a custom error\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js:77:9\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:137:13)\n' +
+      '    at Route.dispatch (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:112:3)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:281:22\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at cors (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:188:7)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:224:17\n' +
+      '    at originCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:214:15)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:219:13\n' +
+      '    at optionsCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:199:9)\n' +
+      '    at corsMiddleware (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:204:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:284:7\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at jsonParser (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js:110:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)',
+    stack: 'Error: This is a custom error\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js:77:9\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:137:13)\n' +
+      '    at Route.dispatch (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:112:3)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:281:22\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at cors (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:188:7)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:224:17\n' +
+      '    at originCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:214:15)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:219:13\n' +
+      '    at optionsCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:199:9)\n' +
+      '    at corsMiddleware (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:204:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:284:7\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at jsonParser (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js:110:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)',
+    exception: true,
+    date: 'Sun Feb 26 2023 13:51:43 GMT+0400 (Персидский залив)',
+    process: {
+      pid: 12936,
+      uid: 502,
+      gid: 20,
+      cwd: '/Users/gordungordey_1/Desktop/zoonyanya/backend',
+      execPath: '/usr/local/bin/node',
+      version: 'v14.20.0',
+      argv: [
+        '/usr/local/bin/node',
+        '/Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js'
+      ],
+      memoryUsage: {
+        rss: 112463872,
+        heapTotal: 65585152,
+        heapUsed: 27678616,
+        external: 19964567,
+        arrayBuffers: 18314348
+      }
+    },
+    os: {
+      loadavg: [ 4.0693359375, 4.00390625, 3.91064453125 ],
+      uptime: 4156045
+    },
+    trace: [
+      {
+        column: 9,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js',
+        function: null,
+        line: 77,
+        method: null,
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js',
+        function: 'next',
+        line: 137,
+        method: null,
+        native: false
+      },
+      {
+        column: 3,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js',
+        function: 'Route.dispatch',
+        line: 112,
+        method: 'dispatch',
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 22,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: null,
+        line: 281,
+        method: null,
+        native: false
+      },
+      {
+        column: 12,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'Function.process_params',
+        line: 335,
+        method: 'process_params',
+        native: false
+      },
+      {
+        column: 10,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'next',
+        line: 275,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'cors',
+        line: 188,
+        method: null,
+        native: false
+      },
+      {
+        column: 17,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: null,
+        line: 224,
+        method: null,
+        native: false
+      },
+      {
+        column: 15,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'originCallback',
+        line: 214,
+        method: null,
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: null,
+        line: 219,
+        method: null,
+        native: false
+      },
+      {
+        column: 9,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'optionsCallback',
+        line: 199,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'corsMiddleware',
+        line: 204,
+        method: null,
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'trim_prefix',
+        line: 317,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: null,
+        line: 284,
+        method: null,
+        native: false
+      },
+      {
+        column: 12,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'Function.process_params',
+        line: 335,
+        method: 'process_params',
+        native: false
+      },
+      {
+        column: 10,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'next',
+        line: 275,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js',
+        function: 'jsonParser',
+        line: 110,
+        method: null,
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'trim_prefix',
+        line: 317,
+        method: null,
+        native: false
+      }
+    ],
+    req: {
+      url: '/error',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5055',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/error',
+      query: {}
+    }
+  },
+  level: 'error',
+  message: 'middlewareError',
+  timestamp: '2023-02-26T09:51:43.323Z'
+}
+{
+  meta: {
+    error: Error: This is a custom error
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js:77:9
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:137:13)
+        at Route.dispatch (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:112:3)
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:281:22
+        at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)
+        at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)
+        at cors (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:188:7)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:224:17
+        at originCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:214:15)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:219:13
+        at optionsCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:199:9)
+        at corsMiddleware (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:204:7)
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:284:7
+        at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)
+        at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)
+        at jsonParser (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js:110:7)
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13),
+    level: 'error',
+    message: 'uncaughtException: This is a custom error\n' +
+      'Error: This is a custom error\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js:77:9\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:137:13)\n' +
+      '    at Route.dispatch (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:112:3)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:281:22\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at cors (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:188:7)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:224:17\n' +
+      '    at originCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:214:15)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:219:13\n' +
+      '    at optionsCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:199:9)\n' +
+      '    at corsMiddleware (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:204:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:284:7\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at jsonParser (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js:110:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)',
+    stack: 'Error: This is a custom error\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js:77:9\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:137:13)\n' +
+      '    at Route.dispatch (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:112:3)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:281:22\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at cors (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:188:7)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:224:17\n' +
+      '    at originCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:214:15)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:219:13\n' +
+      '    at optionsCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:199:9)\n' +
+      '    at corsMiddleware (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:204:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:284:7\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at jsonParser (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js:110:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)',
+    exception: true,
+    date: 'Sun Feb 26 2023 13:52:36 GMT+0400 (Персидский залив)',
+    process: {
+      pid: 12962,
+      uid: 502,
+      gid: 20,
+      cwd: '/Users/gordungordey_1/Desktop/zoonyanya/backend',
+      execPath: '/usr/local/bin/node',
+      version: 'v14.20.0',
+      argv: [
+        '/usr/local/bin/node',
+        '/Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js'
+      ],
+      memoryUsage: {
+        rss: 67252224,
+        heapTotal: 30982144,
+        heapUsed: 28477696,
+        external: 19992929,
+        arrayBuffers: 18343342
+      }
+    },
+    os: {
+      loadavg: [ 4.7373046875, 4.21142578125, 3.9931640625 ],
+      uptime: 4156098
+    },
+    trace: [
+      {
+        column: 9,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js',
+        function: null,
+        line: 77,
+        method: null,
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js',
+        function: 'next',
+        line: 137,
+        method: null,
+        native: false
+      },
+      {
+        column: 3,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js',
+        function: 'Route.dispatch',
+        line: 112,
+        method: 'dispatch',
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 22,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: null,
+        line: 281,
+        method: null,
+        native: false
+      },
+      {
+        column: 12,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'Function.process_params',
+        line: 335,
+        method: 'process_params',
+        native: false
+      },
+      {
+        column: 10,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'next',
+        line: 275,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'cors',
+        line: 188,
+        method: null,
+        native: false
+      },
+      {
+        column: 17,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: null,
+        line: 224,
+        method: null,
+        native: false
+      },
+      {
+        column: 15,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'originCallback',
+        line: 214,
+        method: null,
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: null,
+        line: 219,
+        method: null,
+        native: false
+      },
+      {
+        column: 9,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'optionsCallback',
+        line: 199,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'corsMiddleware',
+        line: 204,
+        method: null,
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'trim_prefix',
+        line: 317,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: null,
+        line: 284,
+        method: null,
+        native: false
+      },
+      {
+        column: 12,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'Function.process_params',
+        line: 335,
+        method: 'process_params',
+        native: false
+      },
+      {
+        column: 10,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'next',
+        line: 275,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js',
+        function: 'jsonParser',
+        line: 110,
+        method: null,
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'trim_prefix',
+        line: 317,
+        method: null,
+        native: false
+      }
+    ],
+    req: {
+      url: '/error',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5055',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/error',
+      query: {}
+    }
+  },
+  level: 'error',
+  message: 'middlewareError',
+  timestamp: '2023-02-26T09:52:36.741Z'
+}
+{
+  meta: {
+    error: Error: This is a custom error
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js:77:9
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:137:13)
+        at Route.dispatch (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:112:3)
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:281:22
+        at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)
+        at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)
+        at cors (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:188:7)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:224:17
+        at originCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:214:15)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:219:13
+        at optionsCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:199:9)
+        at corsMiddleware (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:204:7)
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)
+        at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:284:7
+        at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)
+        at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)
+        at jsonParser (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js:110:7)
+        at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)
+        at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13),
+    level: 'error',
+    message: 'uncaughtException: This is a custom error\n' +
+      'Error: This is a custom error\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js:77:9\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:137:13)\n' +
+      '    at Route.dispatch (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:112:3)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:281:22\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at cors (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:188:7)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:224:17\n' +
+      '    at originCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:214:15)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:219:13\n' +
+      '    at optionsCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:199:9)\n' +
+      '    at corsMiddleware (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:204:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:284:7\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at jsonParser (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js:110:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)',
+    stack: 'Error: This is a custom error\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js:77:9\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:137:13)\n' +
+      '    at Route.dispatch (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js:112:3)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:281:22\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at cors (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:188:7)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:224:17\n' +
+      '    at originCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:214:15)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:219:13\n' +
+      '    at optionsCallback (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:199:9)\n' +
+      '    at corsMiddleware (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js:204:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)\n' +
+      '    at /Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:284:7\n' +
+      '    at Function.process_params (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:335:12)\n' +
+      '    at next (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:275:10)\n' +
+      '    at jsonParser (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js:110:7)\n' +
+      '    at Layer.handle [as handle_request] (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js:317:13)',
+    exception: true,
+    date: 'Sun Feb 26 2023 13:53:24 GMT+0400 (Персидский залив)',
+    process: {
+      pid: 13016,
+      uid: 502,
+      gid: 20,
+      cwd: '/Users/gordungordey_1/Desktop/zoonyanya/backend',
+      execPath: '/usr/local/bin/node',
+      version: 'v14.20.0',
+      argv: [
+        '/usr/local/bin/node',
+        '/Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js'
+      ],
+      memoryUsage: {
+        rss: 99651584,
+        heapTotal: 65060864,
+        heapUsed: 30510992,
+        external: 20101345,
+        arrayBuffers: 18451126
+      }
+    },
+    os: {
+      loadavg: [ 5.17919921875, 4.4228515625, 4.08349609375 ],
+      uptime: 4156146
+    },
+    trace: [
+      {
+        column: 9,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/api/index.js',
+        function: null,
+        line: 77,
+        method: null,
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js',
+        function: 'next',
+        line: 137,
+        method: null,
+        native: false
+      },
+      {
+        column: 3,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/route.js',
+        function: 'Route.dispatch',
+        line: 112,
+        method: 'dispatch',
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 22,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: null,
+        line: 281,
+        method: null,
+        native: false
+      },
+      {
+        column: 12,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'Function.process_params',
+        line: 335,
+        method: 'process_params',
+        native: false
+      },
+      {
+        column: 10,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'next',
+        line: 275,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'cors',
+        line: 188,
+        method: null,
+        native: false
+      },
+      {
+        column: 17,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: null,
+        line: 224,
+        method: null,
+        native: false
+      },
+      {
+        column: 15,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'originCallback',
+        line: 214,
+        method: null,
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: null,
+        line: 219,
+        method: null,
+        native: false
+      },
+      {
+        column: 9,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'optionsCallback',
+        line: 199,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/cors/lib/index.js',
+        function: 'corsMiddleware',
+        line: 204,
+        method: null,
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'trim_prefix',
+        line: 317,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: null,
+        line: 284,
+        method: null,
+        native: false
+      },
+      {
+        column: 12,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'Function.process_params',
+        line: 335,
+        method: 'process_params',
+        native: false
+      },
+      {
+        column: 10,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'next',
+        line: 275,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/body-parser/lib/types/json.js',
+        function: 'jsonParser',
+        line: 110,
+        method: null,
+        native: false
+      },
+      {
+        column: 5,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/layer.js',
+        function: 'Layer.handle [as handle_request]',
+        line: 95,
+        method: 'handle [as handle_request]',
+        native: false
+      },
+      {
+        column: 13,
+        file: '/Users/gordungordey_1/Desktop/zoonyanya/backend/node_modules/express/lib/router/index.js',
+        function: 'trim_prefix',
+        line: 317,
+        method: null,
+        native: false
+      }
+    ],
+    req: {
+      url: '/error',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5055',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/error',
+      query: {}
+    }
+  },
+  level: 'error',
+  message: 'middlewareError',
+  timestamp: '2023-02-26T09:53:24.387Z'
+}

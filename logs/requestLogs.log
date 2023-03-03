@@ -1,0 +1,2268 @@
+{
+  meta: {
+    req: {
+      url: '/error',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5055',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/error',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 12
+  },
+  level: 'error',
+  message: 'HTTP GET /error',
+  timestamp: '2023-02-26T09:26:43.134Z'
+}
+{
+  meta: {
+    req: {
+      url: '/error',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5055',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/error',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 11
+  },
+  level: 'error',
+  message: 'HTTP GET /error',
+  timestamp: '2023-02-26T09:29:53.816Z'
+}
+{
+  meta: {
+    req: {
+      url: '/error',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5055',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/error',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 14
+  },
+  level: 'error',
+  message: 'HTTP GET /error',
+  timestamp: '2023-02-26T09:50:26.765Z'
+}
+{
+  meta: {
+    req: {
+      url: '/error',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5055',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/error',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 13
+  },
+  level: 'error',
+  message: 'HTTP GET /error',
+  timestamp: '2023-02-26T09:51:43.332Z'
+}
+{
+  meta: {
+    req: {
+      url: '/error',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5055',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/error',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 12
+  },
+  level: 'error',
+  message: 'HTTP GET /error',
+  timestamp: '2023-02-26T09:52:36.750Z'
+}
+{
+  meta: {
+    req: {
+      url: '/error',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5055',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/error',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 14
+  },
+  level: 'error',
+  message: 'HTTP GET /error',
+  timestamp: '2023-02-26T09:53:24.398Z'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:5055',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        cookie: '_ym_uid=1644934428885975868; _ym_d=1666358653; _ga=GA1.1.1212149119.1666358778; adminInfo={%22token%22:%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjlhMDllM2Y4ODI2ZjA2MjlkZTk3NWUiLCJuYW1lIjoi0JPQvtGA0LTQtdC5IiwiZW1haWwiOiJnb3JkZXkubW9za3ZpY2hldkBnbWFpbC5jb20iLCJwaG9uZSI6IjEyMzQ1NiIsImltYWdlIjoiaHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vem9vbnlhbnlhL2ltYWdlL3VwbG9hZC92MTY1NDQ0Njc0Mi9wa3l6NnE1cW93am1yZGx0eDVmdS5qcGciLCJpYXQiOjE2NzY3MjI1NjAsImV4cCI6MTY3Njg5NTM2MH0.Fdu4tRKUfv3QlgVSxL4sXIyuRQ_zXOfBAwApBRmSR9Y%22%2C%22_id%22:%22629a09e3f8826f0629de975e%22%2C%22name%22:%22%D0%93%D0%BE%D1%80%D0%B4%D0%B5%D0%B9%22%2C%22phone%22:%22123456%22%2C%22email%22:%22gordey.moskvichev@gmail.com%22%2C%22image%22:%22https://res.cloudinary.com/zoonyanya/image/upload/v1654446742/pkyz6q5qowjmrdltx5fu.jpg%22}; _ga_GC4SMBJLZ5=GS1.1.1677337847.41.0.1677337847.0.0.0'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'HTTP GET /',
+  timestamp: '2023-02-26T09:54:42.894Z'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:5055',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:5055/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        cookie: '_ym_uid=1644934428885975868; _ym_d=1666358653; _ga=GA1.1.1212149119.1666358778; adminInfo={%22token%22:%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjlhMDllM2Y4ODI2ZjA2MjlkZTk3NWUiLCJuYW1lIjoi0JPQvtGA0LTQtdC5IiwiZW1haWwiOiJnb3JkZXkubW9za3ZpY2hldkBnbWFpbC5jb20iLCJwaG9uZSI6IjEyMzQ1NiIsImltYWdlIjoiaHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vem9vbnlhbnlhL2ltYWdlL3VwbG9hZC92MTY1NDQ0Njc0Mi9wa3l6NnE1cW93am1yZGx0eDVmdS5qcGciLCJpYXQiOjE2NzY3MjI1NjAsImV4cCI6MTY3Njg5NTM2MH0.Fdu4tRKUfv3QlgVSxL4sXIyuRQ_zXOfBAwApBRmSR9Y%22%2C%22_id%22:%22629a09e3f8826f0629de975e%22%2C%22name%22:%22%D0%93%D0%BE%D1%80%D0%B4%D0%B5%D0%B9%22%2C%22phone%22:%22123456%22%2C%22email%22:%22gordey.moskvichev@gmail.com%22%2C%22image%22:%22https://res.cloudinary.com/zoonyanya/image/upload/v1654446742/pkyz6q5qowjmrdltx5fu.jpg%22}; _ga_GC4SMBJLZ5=GS1.1.1677337847.41.0.1677337847.0.0.0'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 2
+  },
+  level: 'warn',
+  message: 'HTTP GET /favicon.ico',
+  timestamp: '2023-02-26T09:54:42.990Z'
+}
+{
+  meta: {
+    req: {
+      url: '/logs',
+      headers: {
+        host: 'localhost:5055',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        cookie: '_ym_uid=1644934428885975868; _ym_d=1666358653; _ga=GA1.1.1212149119.1666358778; adminInfo={%22token%22:%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjlhMDllM2Y4ODI2ZjA2MjlkZTk3NWUiLCJuYW1lIjoi0JPQvtGA0LTQtdC5IiwiZW1haWwiOiJnb3JkZXkubW9za3ZpY2hldkBnbWFpbC5jb20iLCJwaG9uZSI6IjEyMzQ1NiIsImltYWdlIjoiaHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vem9vbnlhbnlhL2ltYWdlL3VwbG9hZC92MTY1NDQ0Njc0Mi9wa3l6NnE1cW93am1yZGx0eDVmdS5qcGciLCJpYXQiOjE2NzY3MjI1NjAsImV4cCI6MTY3Njg5NTM2MH0.Fdu4tRKUfv3QlgVSxL4sXIyuRQ_zXOfBAwApBRmSR9Y%22%2C%22_id%22:%22629a09e3f8826f0629de975e%22%2C%22name%22:%22%D0%93%D0%BE%D1%80%D0%B4%D0%B5%D0%B9%22%2C%22phone%22:%22123456%22%2C%22email%22:%22gordey.moskvichev@gmail.com%22%2C%22image%22:%22https://res.cloudinary.com/zoonyanya/image/upload/v1654446742/pkyz6q5qowjmrdltx5fu.jpg%22}; _ga_GC4SMBJLZ5=GS1.1.1677337847.41.0.1677337847.0.0.0'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/logs',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 13
+  },
+  level: 'warn',
+  message: 'HTTP GET /logs',
+  timestamp: '2023-02-26T09:54:47.763Z'
+}
+{
+  meta: {
+    req: {
+      url: '/logs/logs.log',
+      headers: {
+        host: 'localhost:5055',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        cookie: '_ym_uid=1644934428885975868; _ym_d=1666358653; _ga=GA1.1.1212149119.1666358778; adminInfo={%22token%22:%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjlhMDllM2Y4ODI2ZjA2MjlkZTk3NWUiLCJuYW1lIjoi0JPQvtGA0LTQtdC5IiwiZW1haWwiOiJnb3JkZXkubW9za3ZpY2hldkBnbWFpbC5jb20iLCJwaG9uZSI6IjEyMzQ1NiIsImltYWdlIjoiaHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vem9vbnlhbnlhL2ltYWdlL3VwbG9hZC92MTY1NDQ0Njc0Mi9wa3l6NnE1cW93am1yZGx0eDVmdS5qcGciLCJpYXQiOjE2NzY3MjI1NjAsImV4cCI6MTY3Njg5NTM2MH0.Fdu4tRKUfv3QlgVSxL4sXIyuRQ_zXOfBAwApBRmSR9Y%22%2C%22_id%22:%22629a09e3f8826f0629de975e%22%2C%22name%22:%22%D0%93%D0%BE%D1%80%D0%B4%D0%B5%D0%B9%22%2C%22phone%22:%22123456%22%2C%22email%22:%22gordey.moskvichev@gmail.com%22%2C%22image%22:%22https://res.cloudinary.com/zoonyanya/image/upload/v1654446742/pkyz6q5qowjmrdltx5fu.jpg%22}; _ga_GC4SMBJLZ5=GS1.1.1677337847.41.0.1677337847.0.0.0'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/logs/logs.log',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 7
+  },
+  level: 'warn',
+  message: 'HTTP GET /logs/logs.log',
+  timestamp: '2023-02-26T09:54:59.199Z'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:5055',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        cookie: '_ym_uid=1644934428885975868; _ym_d=1666358653; _ga=GA1.1.1212149119.1666358778; adminInfo={%22token%22:%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjlhMDllM2Y4ODI2ZjA2MjlkZTk3NWUiLCJuYW1lIjoi0JPQvtGA0LTQtdC5IiwiZW1haWwiOiJnb3JkZXkubW9za3ZpY2hldkBnbWFpbC5jb20iLCJwaG9uZSI6IjEyMzQ1NiIsImltYWdlIjoiaHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vem9vbnlhbnlhL2ltYWdlL3VwbG9hZC92MTY1NDQ0Njc0Mi9wa3l6NnE1cW93am1yZGx0eDVmdS5qcGciLCJpYXQiOjE2NzY3MjI1NjAsImV4cCI6MTY3Njg5NTM2MH0.Fdu4tRKUfv3QlgVSxL4sXIyuRQ_zXOfBAwApBRmSR9Y%22%2C%22_id%22:%22629a09e3f8826f0629de975e%22%2C%22name%22:%22%D0%93%D0%BE%D1%80%D0%B4%D0%B5%D0%B9%22%2C%22phone%22:%22123456%22%2C%22email%22:%22gordey.moskvichev@gmail.com%22%2C%22image%22:%22https://res.cloudinary.com/zoonyanya/image/upload/v1654446742/pkyz6q5qowjmrdltx5fu.jpg%22}; _ga_GC4SMBJLZ5=GS1.1.1677337847.41.0.1677337847.0.0.0',
+        'if-none-match': 'W/"13-oVgNqRLs+avLKyX5MxhiQG3jLVI"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 7
+  },
+  level: 'info',
+  message: 'HTTP GET /',
+  timestamp: '2023-02-26T09:55:04.456Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 189
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:32:38.235Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 259
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:32:38.339Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 157
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:33:45.885Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 130
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:33:47.752Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 133
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:33:47.760Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 126
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:33:49.308Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 127
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:33:49.310Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 149
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:34:51.638Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 140
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:34:51.645Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 134
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:35:06.546Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 130
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:35:06.548Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 145
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:39:36.097Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 132
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:39:49.436Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 133
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:39:49.441Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 135
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:41:12.318Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 140
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:41:12.328Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 125
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:41:13.428Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 129
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:41:13.430Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 152
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:42:20.749Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 157
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:44:34.807Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 175
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:44:38.363Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 138
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:44:38.371Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 132
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:45:40.647Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 139
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:45:40.650Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        'if-none-match': 'W/"ed-mlAUD5IFo7bZIdfjpBRkxddaH0o"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 175
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:48:24.332Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        'if-none-match': 'W/"fc-SGLvAERqzMa+vD9OojMkbiUALGk"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 128
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:48:24.474Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 137
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:49:22.795Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 256
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:49:22.921Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        accept: '*/*',
+        'access-control-request-method': 'GET',
+        'access-control-request-private-network': 'true',
+        origin: 'https://yacht-six.vercel.app',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'OPTIONS',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 204 },
+    responseTime: 7
+  },
+  level: 'info',
+  message: 'HTTP OPTIONS /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:54:10.898Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://yacht-six.vercel.app',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 183
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:54:11.088Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        accept: '*/*',
+        'access-control-request-method': 'GET',
+        'access-control-request-private-network': 'true',
+        origin: 'https://yacht-six.vercel.app',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'OPTIONS',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 204 },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'HTTP OPTIONS /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:54:37.130Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://yacht-six.vercel.app',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        'if-none-match': 'W/"fc-SGLvAERqzMa+vD9OojMkbiUALGk"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 144
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:54:37.277Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://yacht-six.vercel.app',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        'if-none-match': 'W/"fc-SGLvAERqzMa+vD9OojMkbiUALGk"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 141
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:54:37.897Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://yacht-six.vercel.app',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        'if-none-match': 'W/"fc-SGLvAERqzMa+vD9OojMkbiUALGk"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 130
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:54:38.434Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://yacht-six.vercel.app',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        'if-none-match': 'W/"fc-SGLvAERqzMa+vD9OojMkbiUALGk"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 129
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:54:38.869Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://yacht-six.vercel.app',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        'if-none-match': 'W/"fc-SGLvAERqzMa+vD9OojMkbiUALGk"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 128
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:54:39.286Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://yacht-six.vercel.app',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        'if-none-match': 'W/"fc-SGLvAERqzMa+vD9OojMkbiUALGk"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 132
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:54:39.711Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        accept: '*/*',
+        'access-control-request-method': 'GET',
+        'access-control-request-private-network': 'true',
+        origin: 'https://yacht-six.vercel.app',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'OPTIONS',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 204 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'HTTP OPTIONS /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:56:33.331Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://yacht-six.vercel.app',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        'if-none-match': 'W/"fc-SGLvAERqzMa+vD9OojMkbiUALGk"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 137
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:56:33.473Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://yacht-six.vercel.app',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        'if-none-match': 'W/"fc-SGLvAERqzMa+vD9OojMkbiUALGk"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 130
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:56:34.178Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        accept: '*/*',
+        'access-control-request-method': 'GET',
+        'access-control-request-private-network': 'true',
+        origin: 'https://yacht-six.vercel.app',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'OPTIONS',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 204 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'HTTP OPTIONS /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:56:57.710Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://yacht-six.vercel.app',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        'if-none-match': 'W/"fc-SGLvAERqzMa+vD9OojMkbiUALGk"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 142
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:56:57.853Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        accept: '*/*',
+        'access-control-request-method': 'GET',
+        'access-control-request-private-network': 'true',
+        origin: 'https://yacht-six.vercel.app',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'OPTIONS',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 204 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'HTTP OPTIONS /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:57:41.774Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://yacht-six.vercel.app',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        'if-none-match': 'W/"fc-SGLvAERqzMa+vD9OojMkbiUALGk"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 159
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:57:41.948Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        accept: '*/*',
+        'access-control-request-method': 'GET',
+        'access-control-request-private-network': 'true',
+        origin: 'https://yacht-six.vercel.app',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'OPTIONS',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 204 },
+    responseTime: 2
+  },
+  level: 'info',
+  message: 'HTTP OPTIONS /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:58:28.151Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://yacht-six.vercel.app',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        'if-none-match': 'W/"fc-SGLvAERqzMa+vD9OojMkbiUALGk"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 138
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:58:28.310Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        accept: '*/*',
+        'access-control-request-method': 'GET',
+        'access-control-request-private-network': 'true',
+        origin: 'https://yacht-six.vercel.app',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'OPTIONS',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 204 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'HTTP OPTIONS /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:59:58.589Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://yacht-six.vercel.app',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        'if-none-match': 'W/"fc-SGLvAERqzMa+vD9OojMkbiUALGk"'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 304 },
+    responseTime: 145
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T14:59:58.737Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        accept: '*/*',
+        'access-control-request-method': 'GET',
+        'access-control-request-private-network': 'true',
+        origin: 'https://yacht-six.vercel.app',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'OPTIONS',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 204 },
+    responseTime: 3
+  },
+  level: 'info',
+  message: 'HTTP OPTIONS /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T15:00:05.601Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://yacht-six.vercel.app',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 133
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T15:00:05.735Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 153
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T15:03:22.728Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        accept: '*/*',
+        'access-control-request-method': 'GET',
+        'access-control-request-private-network': 'true',
+        origin: 'https://yacht-six.vercel.app',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'OPTIONS',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 204 },
+    responseTime: 0
+  },
+  level: 'info',
+  message: 'HTTP OPTIONS /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T15:03:32.842Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://yacht-six.vercel.app',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 142
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T15:03:32.985Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        accept: '*/*',
+        'access-control-request-method': 'GET',
+        'access-control-request-private-network': 'true',
+        origin: 'https://yacht-six.vercel.app',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'OPTIONS',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 204 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'HTTP OPTIONS /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T15:03:35.214Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://yacht-six.vercel.app',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 139
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T15:03:35.400Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        accept: '*/*',
+        'access-control-request-method': 'GET',
+        'access-control-request-private-network': 'true',
+        origin: 'https://yacht-six.vercel.app',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'OPTIONS',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 204 },
+    responseTime: 1
+  },
+  level: 'info',
+  message: 'HTTP OPTIONS /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T15:03:43.597Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://yacht-six.vercel.app',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 151
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T15:03:43.750Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 168
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T15:05:45.873Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 145
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T15:08:13.965Z'
+}
+{
+  meta: {
+    req: {
+      url: '/api/events/63ff75cfca3e049bc078d2fe',
+      headers: {
+        host: 'localhost:6969',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        accept: 'application/json, text/plain, */*',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'http://localhost:3002',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:3002/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/events/63ff75cfca3e049bc078d2fe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 132
+  },
+  level: 'info',
+  message: 'HTTP GET /api/events/63ff75cfca3e049bc078d2fe',
+  timestamp: '2023-03-03T15:08:13.975Z'
+}

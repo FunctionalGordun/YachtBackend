@@ -1,0 +1,10 @@
+GET http://localhost:5055
+
+###
+GET http://localhost:5055/400
+
+###
+GET http://localhost:5055/500
+
+###
+GET http://localhost:5055/error

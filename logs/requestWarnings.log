@@ -1,0 +1,208 @@
+{
+  meta: {
+    req: {
+      url: '/error',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5055',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/error',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 11
+  },
+  level: 'error',
+  message: 'HTTP GET /error',
+  timestamp: '2023-02-26T09:29:53.816Z'
+}
+{
+  meta: {
+    req: {
+      url: '/error',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5055',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/error',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 14
+  },
+  level: 'error',
+  message: 'HTTP GET /error',
+  timestamp: '2023-02-26T09:50:26.765Z'
+}
+{
+  meta: {
+    req: {
+      url: '/error',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5055',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/error',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 13
+  },
+  level: 'error',
+  message: 'HTTP GET /error',
+  timestamp: '2023-02-26T09:51:43.332Z'
+}
+{
+  meta: {
+    req: {
+      url: '/error',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5055',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/error',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 12
+  },
+  level: 'error',
+  message: 'HTTP GET /error',
+  timestamp: '2023-02-26T09:52:36.750Z'
+}
+{
+  meta: {
+    req: {
+      url: '/error',
+      headers: {
+        'user-agent': 'vscode-restclient',
+        'accept-encoding': 'gzip, deflate',
+        host: 'localhost:5055',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/error',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 14
+  },
+  level: 'error',
+  message: 'HTTP GET /error',
+  timestamp: '2023-02-26T09:53:24.398Z'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:5055',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        'sec-ch-ua-platform': '"macOS"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:5055/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        cookie: '_ym_uid=1644934428885975868; _ym_d=1666358653; _ga=GA1.1.1212149119.1666358778; adminInfo={%22token%22:%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjlhMDllM2Y4ODI2ZjA2MjlkZTk3NWUiLCJuYW1lIjoi0JPQvtGA0LTQtdC5IiwiZW1haWwiOiJnb3JkZXkubW9za3ZpY2hldkBnbWFpbC5jb20iLCJwaG9uZSI6IjEyMzQ1NiIsImltYWdlIjoiaHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vem9vbnlhbnlhL2ltYWdlL3VwbG9hZC92MTY1NDQ0Njc0Mi9wa3l6NnE1cW93am1yZGx0eDVmdS5qcGciLCJpYXQiOjE2NzY3MjI1NjAsImV4cCI6MTY3Njg5NTM2MH0.Fdu4tRKUfv3QlgVSxL4sXIyuRQ_zXOfBAwApBRmSR9Y%22%2C%22_id%22:%22629a09e3f8826f0629de975e%22%2C%22name%22:%22%D0%93%D0%BE%D1%80%D0%B4%D0%B5%D0%B9%22%2C%22phone%22:%22123456%22%2C%22email%22:%22gordey.moskvichev@gmail.com%22%2C%22image%22:%22https://res.cloudinary.com/zoonyanya/image/upload/v1654446742/pkyz6q5qowjmrdltx5fu.jpg%22}; _ga_GC4SMBJLZ5=GS1.1.1677337847.41.0.1677337847.0.0.0'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 2
+  },
+  level: 'warn',
+  message: 'HTTP GET /favicon.ico',
+  timestamp: '2023-02-26T09:54:42.990Z'
+}
+{
+  meta: {
+    req: {
+      url: '/logs',
+      headers: {
+        host: 'localhost:5055',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        cookie: '_ym_uid=1644934428885975868; _ym_d=1666358653; _ga=GA1.1.1212149119.1666358778; adminInfo={%22token%22:%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjlhMDllM2Y4ODI2ZjA2MjlkZTk3NWUiLCJuYW1lIjoi0JPQvtGA0LTQtdC5IiwiZW1haWwiOiJnb3JkZXkubW9za3ZpY2hldkBnbWFpbC5jb20iLCJwaG9uZSI6IjEyMzQ1NiIsImltYWdlIjoiaHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vem9vbnlhbnlhL2ltYWdlL3VwbG9hZC92MTY1NDQ0Njc0Mi9wa3l6NnE1cW93am1yZGx0eDVmdS5qcGciLCJpYXQiOjE2NzY3MjI1NjAsImV4cCI6MTY3Njg5NTM2MH0.Fdu4tRKUfv3QlgVSxL4sXIyuRQ_zXOfBAwApBRmSR9Y%22%2C%22_id%22:%22629a09e3f8826f0629de975e%22%2C%22name%22:%22%D0%93%D0%BE%D1%80%D0%B4%D0%B5%D0%B9%22%2C%22phone%22:%22123456%22%2C%22email%22:%22gordey.moskvichev@gmail.com%22%2C%22image%22:%22https://res.cloudinary.com/zoonyanya/image/upload/v1654446742/pkyz6q5qowjmrdltx5fu.jpg%22}; _ga_GC4SMBJLZ5=GS1.1.1677337847.41.0.1677337847.0.0.0'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/logs',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 13
+  },
+  level: 'warn',
+  message: 'HTTP GET /logs',
+  timestamp: '2023-02-26T09:54:47.763Z'
+}
+{
+  meta: {
+    req: {
+      url: '/logs/logs.log',
+      headers: {
+        host: 'localhost:5055',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Yandex";v="23"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.2.980 Yowser/2.5 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'ru,en;q=0.9',
+        cookie: '_ym_uid=1644934428885975868; _ym_d=1666358653; _ga=GA1.1.1212149119.1666358778; adminInfo={%22token%22:%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjlhMDllM2Y4ODI2ZjA2MjlkZTk3NWUiLCJuYW1lIjoi0JPQvtGA0LTQtdC5IiwiZW1haWwiOiJnb3JkZXkubW9za3ZpY2hldkBnbWFpbC5jb20iLCJwaG9uZSI6IjEyMzQ1NiIsImltYWdlIjoiaHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vem9vbnlhbnlhL2ltYWdlL3VwbG9hZC92MTY1NDQ0Njc0Mi9wa3l6NnE1cW93am1yZGx0eDVmdS5qcGciLCJpYXQiOjE2NzY3MjI1NjAsImV4cCI6MTY3Njg5NTM2MH0.Fdu4tRKUfv3QlgVSxL4sXIyuRQ_zXOfBAwApBRmSR9Y%22%2C%22_id%22:%22629a09e3f8826f0629de975e%22%2C%22name%22:%22%D0%93%D0%BE%D1%80%D0%B4%D0%B5%D0%B9%22%2C%22phone%22:%22123456%22%2C%22email%22:%22gordey.moskvichev@gmail.com%22%2C%22image%22:%22https://res.cloudinary.com/zoonyanya/image/upload/v1654446742/pkyz6q5qowjmrdltx5fu.jpg%22}; _ga_GC4SMBJLZ5=GS1.1.1677337847.41.0.1677337847.0.0.0'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/logs/logs.log',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 7
+  },
+  level: 'warn',
+  message: 'HTTP GET /logs/logs.log',
+  timestamp: '2023-02-26T09:54:59.199Z'
+}
