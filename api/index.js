@@ -15,10 +15,10 @@ connectDB();
 const app = express();
 
 // error logging
-app.use(expressWinston.logger({
-  winstonInstance: requestLogger,
-  statusLevels: true
-}))
+// app.use(expressWinston.logger({
+//   winstonInstance: requestLogger,
+//   statusLevels: true
+// }))
 
 // We are using this for the express-rate-limit middleware
 // See: https://github.com/nfriedly/express-rate-limit
@@ -49,9 +49,9 @@ app.get('/error', (req, res) => {
 })
 
 // Use winston error handling middleware
-app.use(expressWinston.errorLogger({
-  winstonInstance: logger
-}))
+// app.use(expressWinston.errorLogger({
+//   winstonInstance: logger
+// }))
 
 // Use express's default error handling middleware
 // app.use((err, req, res, next) => {
