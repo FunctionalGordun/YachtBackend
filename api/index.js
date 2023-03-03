@@ -1,8 +1,8 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const expressWinston = require('express-winston')
-const { requestLogger, logger } = require('../logger')
+// const expressWinston = require('express-winston')
+// const { requestLogger, logger } = require('../logger')
 
 const connectDB = require('../config/db');
 const connectBot = require('../bot/index');
