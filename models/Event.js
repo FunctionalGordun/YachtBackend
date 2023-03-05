@@ -17,12 +17,33 @@ const eventSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  specialprice: {
+    type: Number,
+    required: true,
+  },
   capacity: {
     type: Number,
     required: true,
   },
   avaliable: {
     type: Number,
+    required: true,
+  },
+  address: {
+    type: {
+      address: {
+        type: String,
+        required: true,
+      },
+      latitude: {
+        type: String,
+        required: true,
+      },
+      longitude: {
+        type: String,
+        required: true,
+      },
+    },
     required: true,
   },
 });

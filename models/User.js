@@ -6,41 +6,24 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    image: {
-      type: String,
-      required: false,
-    },
-    address: {
-      type: String,
-      required: false,
-    },
-    country: {
-      type: String,
-      required: false,
-    },
-    city: {
-      type: String,
-      required: false,
-    },
-
-    email: {
-      type: String,
-      required: true,
-      unique: true,
-      lowercase: true,
-    },
     phone: {
       type: String,
       required: false,
     },
-    password: {
-      type: String,
+    events: {
+      type: [{
+        eventId: {
+          type: String,
+          required: true,
+        },
+        visitors: {
+          type: [String],
+          required: true,
+        }
+      }],
       required: false,
     },
   },
-  {
-    timestamps: true,
-  }
 );
 
 const User = mongoose.models.User || mongoose.model('User', userSchema);

@@ -6,10 +6,10 @@ const cors = require('cors');
 
 const connectDB = require('../config/db');
 const connectBot = require('../bot/index');
-const frontendRoutes = require('../routes/frontendRoutes');
 const eventsRoutes = require('../routes/eventsRoutes');
+const bookingRoutes = require('../routes/bookingEventRoutes');
 
-// connectBot();
+connectBot();
 
 connectDB();
 const app = express();
@@ -38,10 +38,8 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api/events/', eventsRoutes);
+app.use('/api/booking/', bookingRoutes);
 
-// роуты фронтенда
-app.use('/api/frontend/', frontendRoutes);
-app.use('/api/frontend/grooming/', frontendRoutes);
 
 //test reset
 app.get('/error', (req, res) => {

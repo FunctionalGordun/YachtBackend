@@ -4,7 +4,6 @@ const getEvents = async (req, res) => {
   try {
     // const { start, end } = req.params;
     const events = await Event.find({}).sort({ _id: -1 });
-    console.log('EVENTS', events)
     res.send(events);
   } catch (err) {
     res.status(500).send({

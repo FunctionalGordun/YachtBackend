@@ -46,8 +46,11 @@ let eventStatus = null
       // bot.sendMessage(chatId, `admin ${chatId}`);
       if (isAdmin(chatId)) {
         bot.sendMessage(chatId, `Вы админ`);
+        bot.sendLocation(chatId, 25.091951, 55.141493)
+        bot.sendMessage(chatId, 'Бронируй нахуй', bookingKeyboard)
       }
     });
+
 
 
     bot.on('callback_query', async (msg) => {

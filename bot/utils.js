@@ -13,7 +13,9 @@ const getEventMessage = ({title, date, description, price, capacity}) => {
 const getEventInlineKeyboard = (id) => {
   return {
     inline_keyboard: [
-      [{ text: 'Забронировать', web_app: {url: `${process.env.WEB_APP_URL}?eventId=${id}`, title:'YTEET'} }],
+      [{ text: 'Забронировать', web_app: {url: `${process.env.WEB_APP_URL}?eventId=${id}`} }],
+      [{ text: 'TEST', web_app: {url: `${process.env.WEB_APP_URL}/booking/?eventId=${id}`} }],
+      [{ text: 'TEST2', web_app: {url: `https://petrovich.ru/`} }],
       [{ text: 'Подробнее', callback_data: 'moreinfo' }],
     ]
   }
