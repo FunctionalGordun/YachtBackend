@@ -25,7 +25,7 @@ const connectBot = async () => {
 
 
 let eventStatus = null
-    bot.on('message', (msg) => {
+    bot.on('message', async (msg) => {
       const { chat, contact = null, text } = msg;
       const { id: chatId } = chat;
 
@@ -49,6 +49,16 @@ let eventStatus = null
         bot.sendLocation(chatId, 25.091951, 55.141493)
         bot.sendMessage(chatId, 'Бронируй нахуй', bookingKeyboard)
       }
+
+      if(msg?.web_app_data?.data) {
+        try {
+            const data = JSON.parse(msg?.web_app_data?.data)
+            console.log(data)
+            await bot.sendMessage(chatId, 'Спасибо за обратную связь!')
+        } catch (e) {
+            console.log(e);
+        }
+    }
     });
 
 
@@ -91,4 +101,4 @@ let eventStatus = null
                 //   { caption: getEventMessage(event)
                 // })
 
-module.exports = connectBot;
+module.exports = { connectBot, bot };
