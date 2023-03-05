@@ -8,6 +8,7 @@ const connectDB = require('../config/db');
 const { connectBot } = require('../bot/index');
 const eventsRoutes = require('../routes/eventsRoutes');
 const bookingRoutes = require('../routes/bookingEventRoutes');
+const adminRoutes = require('../routes/adminRoutes');
 
 connectBot();
 
@@ -39,6 +40,7 @@ app.get('/', (req, res) => {
 
 app.use('/api/events/', eventsRoutes);
 app.use('/api/booking/', bookingRoutes);
+app.use('/api/admin/', adminRoutes);
 
 
 //test reset

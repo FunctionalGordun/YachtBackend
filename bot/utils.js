@@ -10,15 +10,24 @@ const getEventMessage = ({title, date, description, price, capacity}) => {
   ${price}`
 }
 
-const getEventInlineKeyboard = (id) => {
-  return {
-    inline_keyboard: [
-      [{ text: 'Забронировать', web_app: {url: `${process.env.WEB_APP_URL}?eventId=${id}`} }],
-      [{ text: 'TEST', web_app: {url: `${process.env.WEB_APP_URL}/booking/?eventId=${id}`} }],
-      [{ text: 'TEST2', web_app: {url: `https://petrovich.ru/`} }],
-      [{ text: 'Подробнее', callback_data: 'moreinfo' }],
-    ]
+const getEventInlineKeyboard = (id, isAdmin) => {
+   const inline_keyboard = [
+    [{ text: 'Забронировать', web_app: {url: `${process.env.WEB_APP_URL}/booking/?eventId=${id}`} }],
+    [{ text: 'Подробнее', callback_data: 'moreinfo' }],
+  ]
+    if (isAdmin) {
+      inline_keyboard.push([{ text: 'Посетители',  web_app: {url: `${process.env.WEB_APP_URL}/booking/?eventId=${id}`} }]);
+      inline_keyboard.push([{ text: 'Редактировать',  web_app: {url: `${process.env.WEB_APP_URL}/booking/?eventId=${id}`} }]);
   }
+  return { inline_keyboard }
 }
 
-module.exports = { isAdmin, getEventMessage, getEventInlineKeyboard  };
+const getAdminKeyboard = () => {
+  const inline_keyboard = [
+   [{ text: 'События', web_app: {url: `${process.env.WEB_APP_URL}/booking/`} }],
+   [{ text: 'Клиенты', web_app: {url: `${process.env.WEB_APP_URL}/booking/`} }],
+ ]
+ return { inline_keyboard }
+}
+
+module.exports = { isAdmin, getEventMessage, getEventInlineKeyboard, getAdminKeyboard  };

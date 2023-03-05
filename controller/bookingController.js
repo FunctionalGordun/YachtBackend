@@ -13,14 +13,16 @@ const addBookingEvent = async (req, res) => {
       const newBookingUser = new User({name, phone, events: [{ eventId, visitors }]});
       await newBookingUser.save();
     }
-    await bot.answerWebAppQuery(queryId, {
-        type: 'article',
-        id: queryId,
-        title: 'Успешное бронирование',
-        input_message_content: {
-            message_text: 'Вы забронировали'
-        }
-    })
+    if (bot && queryId) {
+      await bot.answerWebAppQuery(queryId, {
+          type: 'article',
+          id: queryId,
+          title: 'Успешное бронирование',
+          input_message_content: {
+              message_text: `Success booking. ${visitors.length} visitors`
+          }
+      })
+    }
     res.status(200).send({
       message: 'Бронирование успешно добавлено!',
       // id: newBookingEvent._id
@@ -32,6 +34,19 @@ const addBookingEvent = async (req, res) => {
   }
 };
 
+const getBookings = async (req, res) => {
+  try {
+    const users = await User.find({ "events.eventId": req.params.id });
+    res.send(users);
+  } catch (err) {
+    res.status(500).send({
+      message: err.message,
+    });
+  }
+};
+
+
 module.exports = {
   addBookingEvent,
+  getBookings
 };

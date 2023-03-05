@@ -6,7 +6,7 @@ const bot = new telegramBot (token, {polling:true});
 
 const { mainInlineKeyboard, bookingKeyboard, CALLBACK_DATA } = require('./constants/constants')
 const { getTGEvents } = require('../controller/eventController');
-const { isAdmin, getEventMessage, getEventInlineKeyboard } = require('./utils');
+const { isAdmin, getEventMessage, getEventInlineKeyboard, getAdminKeyboard } = require('./utils');
 
 const connectBot = async () => {
   try {
@@ -43,22 +43,26 @@ let eventStatus = null
         eventStatus = 'ooo'
       }
 
-      // bot.sendMessage(chatId, `admin ${chatId}`);
-      if (isAdmin(chatId)) {
-        bot.sendMessage(chatId, `Вы админ`);
-        bot.sendLocation(chatId, 25.091951, 55.141493)
-        bot.sendMessage(chatId, 'Бронируй нахуй', bookingKeyboard)
+      if (text == '/admin' && isAdmin(chatId)) {
+        bot.sendMessage(chatId, `Возможности администратора`, { reply_markup: getAdminKeyboard()});
       }
 
-      if(msg?.web_app_data?.data) {
-        try {
-            const data = JSON.parse(msg?.web_app_data?.data)
-            console.log(data)
-            await bot.sendMessage(chatId, 'Спасибо за обратную связь!')
-        } catch (e) {
-            console.log(e);
-        }
-    }
+      // bot.sendMessage(chatId, `admin ${chatId}`);
+      // if (isAdmin(chatId)) {
+      //   bot.sendMessage(chatId, `Вы админ`);
+      //   bot.sendLocation(chatId, 25.091951, 55.141493)
+      //   bot.sendMessage(chatId, 'Бронируй нахуй', bookingKeyboard)
+      // }
+
+      // if(msg?.web_app_data?.data) {
+      //   try {
+      //       const data = JSON.parse(msg?.web_app_data?.data)
+      //       console.log(data)
+      //       await bot.sendMessage(chatId, 'Спасибо за обратную связь!')
+      //   } catch (e) {
+      //       console.log(e);
+      //   }
+      // }
     });
 
 
@@ -72,16 +76,14 @@ let eventStatus = null
           getTGEvents().then(res => {
             if (res) {
               res.map(async (event) => {
-                console.log('EVENT', event, event._id.toString())
                 await bot.sendPhoto(
                   chatId,
                   'https://res.cloudinary.com/zoonyanya/image/upload/v1666294757/cld-sample-2.jpg',
-                  { caption: getEventMessage(event), reply_markup: getEventInlineKeyboard(event._id.toString()) }
+                  { caption: getEventMessage(event), reply_markup: getEventInlineKeyboard(event._id.toString(), isAdmin(chatId)) }
                 )
               })
             }
           }).catch(err => console.log('error', err))
-        //  return bot.sendMessage(chatId, 'Бронируй нахуй', bookingKeyboard);
          break;
         case CALLBACK_DATA.yachts.callback_data:
          return bot.sendMessage(chatId, 'Яхты яхты');
