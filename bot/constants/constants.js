@@ -10,7 +10,6 @@ const CALLBACK_DATA = {
   },
 
 }
-console.log('TETETE', CALLBACK_DATA.showEvent.title)
 
 const mainInlineKeyboard = {
   reply_markup: {
