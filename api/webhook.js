@@ -1,8 +1,9 @@
 
 const telegramBot = require('node-telegram-bot-api');
 const { connectBot } = require('../bot/index');
-// Export as an asynchronous function
-// We'll wait until we've responded to the user
+
+process.env.NTBA_FIX_319 = 'test';
+
 module.exports = async (request, response) => {
     try {
       const bot = new telegramBot (process.env.BOT_TOKEN, {polling:true});
