@@ -4,28 +4,13 @@ const { connectBot } = require('../bot/index');
 // We'll wait until we've responded to the user
 module.exports = async (request, response) => {
     try {
-        await connectBot();
-        // // Create our new bot handler with the token
-        // // that the Botfather gave us
-        // // Use an environment variable so we don't expose it in our code
-        // const bot = new TelegramBot(process.env.BOT_TOKEN);
+      const bot = new telegramBot (process.env.BOT_TOKEN, {polling:true});
 
-        // // Retrieve the POST request body that gets sent from Telegram
-        // const { body } = request;
-
-        // // Ensure that this is a message being sent
-        // if (body.message) {
-        //     // Retrieve the ID for this chat
-        //     // and the text that the user sent
-        //     const { chat: { id }, text } = body.message;
-
-        //     // Create a message to send back
-        //     // We can use Markdown inside this
-        //     const message = `✅ Thanks for your message: *"${text}"*\nHave a great day! 👋🏻`;
-
-        //     // Send our new message back in Markdown
-        //     await bot.sendMessage(id, message, {parse_mode: 'Markdown'});
-        // }
+      bot.onText(/\/start/, async (msg) => {
+        const chatId = msg.chat.id;
+      
+        await bot.sendMessage(chatId, 'Здравствуйте! \n Это бот района Yacht Party');
+      });
     }
     catch(error) {
         // If there was an error sending our message then we 
