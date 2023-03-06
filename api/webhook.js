@@ -4,7 +4,7 @@ const { connectBot } = require('../bot/index');
 // We'll wait until we've responded to the user
 module.exports = async (request, response) => {
     try {
-        connectBot();
+        await connectBot();
         // // Create our new bot handler with the token
         // // that the Botfather gave us
         // // Use an environment variable so we don't expose it in our code
