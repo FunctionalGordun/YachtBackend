@@ -18,6 +18,8 @@ module.exports = async (request, response) => {
         if (message) {
             const { chat: { id }, text } = message;
 
+            console.log('TEXT', text)
+
           if (text == '/start') {
             await bot.sendMessage(id, 'Здравствуйте! \n Это бот Yacht Party', mainInlineKeyboard);
           }
@@ -35,16 +37,16 @@ module.exports = async (request, response) => {
                 if (res) {
                   res.map(async (event) => {
                     await bot.sendPhoto(
-                      chatId,
+                      id,
                       'https://res.cloudinary.com/zoonyanya/image/upload/v1666294757/cld-sample-2.jpg',
-                      { caption: getEventMessage(event), reply_markup: getEventInlineKeyboard(event._id.toString(), isAdmin(chatId)) }
+                      { caption: getEventMessage(event), reply_markup: getEventInlineKeyboard(event._id.toString(), isAdmin(id)) }
                     )
                   })
                 }
               }).catch(err => console.log('error', err))
              break;
             case CALLBACK_DATA.yachts.callback_data:
-             return bot.sendMessage(chatId, 'Яхты яхты');
+             return bot.sendMessage(id, 'Яхты яхты');
              break;
           }
         }
