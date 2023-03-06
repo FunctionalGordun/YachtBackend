@@ -12,11 +12,11 @@ module.exports = async (request, response) => {
           const { chat: { id }, text } = body.message;
           const message = `Сообщение: *"${text}"*\n 👋🏻`;
           await bot.sendMessage(id, message, {parse_mode: 'Markdown'});
-          bot.onText(/\/start/, async (msg) => {
-            const chatId = msg.chat.id;
+          // bot.onText(/\/start/, async (msg) => {
+          //   const chatId = msg.chat.id;
           
-            await bot.sendMessage(chatId, 'Здравствуйте! \n Это бот Yacht Party');
-          });
+          //   await bot.sendMessage(chatId, 'Здравствуйте! \n Это бот Yacht Party');
+          // });
       }
     } catch(error) {
         // If there was an error sending our message then we 
