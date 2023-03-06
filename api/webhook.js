@@ -11,44 +11,45 @@ const bot = new TelegramBot(process.env.BOT_TOKEN);
 
 module.exports = async (request, response) => {
     try {
-        // Create our new bot handler with the token
-        // that the Botfather gave us
-        // Use an environment variable so we don't expose it in our code
-        // const bot = new TelegramBot(process.env.BOT_TOKEN);
-
-        // Retrieve the POST request body that gets sent from Telegram
         const { body } = request;
-
-        bot.onText(/\/start/, async (msg) => {
-          const chatId = msg.chat.id;
-        
-          await bot.sendMessage(chatId, 'Здравствуйте! \n Это бот района Yacht Party', mainInlineKeyboard);
-        });
-
-        bot.on('message', async (msg) => {
-          console.log('MESSAGE')
-          const { chat, contact = null, text } = msg;
-          const { id: chatId } = chat;
-
-          bot.sendMessage(chatId, `ID ${chatId}`);
-
-          if (text == '/admin' && isAdmin(chatId)) {
-            bot.sendMessage(chatId, `Возможности администратора`, { reply_markup: getAdminKeyboard()});
-          }
-        });
+        const { message, callback_query } = request;
 
         console.log('body', body)
-        if (body.message) {
-            const { chat: { id }, text } = body.message;
+        if (message) {
+            const { chat: { id }, text } = message;
 
-            if (text == '/admin' && isAdmin(id)) {
-              bot.sendMessage(id, `Возможности администратора`, { reply_markup: getAdminKeyboard()});
-            }
-            if (text == '/start') {
-              await bot.sendMessage(id, 'Здравствуйте! \n Это бот Yacht Party', mainInlineKeyboard);
-            }
-            const message = `✅ Thanks for your message: *"${text}"*\nHave a great day! 👋🏻`;
-            await bot.sendMessage(id, message, {parse_mode: 'Markdown'});
+          if (text == '/start') {
+            await bot.sendMessage(id, 'Здравствуйте! \n Это бот Yacht Party', mainInlineKeyboard);
+          }
+          if (text == '/admin' && isAdmin(id)) {
+            bot.sendMessage(id, `Возможности администратора`, { reply_markup: getAdminKeyboard()});
+          }
+        }
+
+        if (callback_query) {
+          const { data, message } = callback_query;
+          const { chat: { id }, text } = message;
+
+          
+          // const { chat: { id }, text } = callback_query;
+          switch (data) {
+            case CALLBACK_DATA.showEvent.callback_data:
+              getTGEvents().then(res => {
+                if (res) {
+                  res.map(async (event) => {
+                    await bot.sendPhoto(
+                      chatId,
+                      'https://res.cloudinary.com/zoonyanya/image/upload/v1666294757/cld-sample-2.jpg',
+                      { caption: getEventMessage(event), reply_markup: getEventInlineKeyboard(event._id.toString(), isAdmin(chatId)) }
+                    )
+                  })
+                }
+              }).catch(err => console.log('error', err))
+             break;
+            case CALLBACK_DATA.yachts.callback_data:
+             return bot.sendMessage(chatId, 'Яхты яхты');
+             break;
+          }
         }
     }
     catch(error) {
