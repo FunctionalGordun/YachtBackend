@@ -38,6 +38,7 @@ module.exports = async (request, response) => {
                 method: 'GET',
               }).then(res => {
                 if (res) {
+                  console.log('RES', res)
                   res.map(async (event) => {
                     await bot.sendPhoto(
                       id,
