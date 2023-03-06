@@ -20,6 +20,12 @@ module.exports = async (request, response) => {
         // Retrieve the POST request body that gets sent from Telegram
         const { body } = request;
 
+        bot.onText(/\/start/, async (msg) => {
+          const chatId = msg.chat.id;
+        
+          await bot.sendMessage(chatId, 'Здравствуйте! \n Это бот района Yacht Party', mainInlineKeyboard);
+        });
+
         // Ensure that this is a message being sent
         if (body.message) {
             // Retrieve the ID for this chat
