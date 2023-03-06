@@ -18,8 +18,6 @@ module.exports = async (request, response) => {
         if (message) {
             const { chat: { id }, text } = message;
 
-            console.log('TEXT', text)
-
           if (text == '/start') {
             await bot.sendMessage(id, 'Здравствуйте! \n Это бот Yacht Party', mainInlineKeyboard);
           }
@@ -31,6 +29,8 @@ module.exports = async (request, response) => {
         if (callback_query) {
           const { data, message } = callback_query;
           const { chat: { id }, text } = message;
+
+          console.log('DATA', data)
           switch (data) {
             case CALLBACK_DATA.showEvent.callback_data:
               getTGEvents().then(res => {
