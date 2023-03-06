@@ -35,7 +35,7 @@ module.exports = async (request, response) => {
             case CALLBACK_DATA.showEvent.callback_data:
               console.log('load event')
               // getEvents().then(res => {
-              fetch('https://yacht-backend.vercel.app/api/events/').then(res => {
+              await fetch('https://yacht-backend.vercel.app/api/events/').then(res => {
                 if (res) {
                   console.log('RES', res)
                   res.map(async (event) => {
