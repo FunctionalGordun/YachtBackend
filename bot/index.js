@@ -33,15 +33,17 @@ let eventStatus = null
         const { phone_number, first_name, last_name, user_id } = contact;
         bot.sendMessage(chatId, `Вы отправили свой телефон ${phone_number}`);
       }
-      if (text == 'tete') {
-        bot.sendMessage(chatId, `TETETE ${eventStatus}`).then(res => {
-          console.log("RES", res)
-        })
-        eventStatus = 'tete'
-      } else if (text == 'ooo') {
-        bot.sendMessage(chatId, `OOO ${eventStatus}`)
-        eventStatus = 'ooo'
-      }
+      // if (text == 'tete') {
+      //   bot.sendMessage(chatId, `TETETE ${eventStatus}`).then(res => {
+      //     console.log("RES", res)
+      //   })
+      //   eventStatus = 'tete'
+      // } else if (text == 'ooo') {
+      //   bot.sendMessage(chatId, `OOO ${eventStatus}`)
+      //   eventStatus = 'ooo'
+      // }
+
+      bot.sendMessage(chatId, `ID ${chatId}`);
 
       if (text == '/admin' && isAdmin(chatId)) {
         bot.sendMessage(chatId, `Возможности администратора`, { reply_markup: getAdminKeyboard()});
