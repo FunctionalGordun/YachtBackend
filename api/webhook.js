@@ -1,12 +1,11 @@
 
 require('dotenv').config();
-// const telegramBot = require('node-telegram-bot-api');
-// const { connectBot } = require('../bot/index');
+const TelegramBot = require('node-telegram-bot-api');
+const { isAdmin, getEventMessage, getEventInlineKeyboard, getAdminKeyboard } = require('../bot/utils');
+const { getTGEvents } = require('../controller/eventController');
+const { mainInlineKeyboard, bookingKeyboard, CALLBACK_DATA } = require('../bot/constants/constants')
 
 process.env.NTBA_FIX_319 = 'test';
-
-// Require our Telegram helper package
-const TelegramBot = require('node-telegram-bot-api');
 
 const bot = new TelegramBot(process.env.BOT_TOKEN);
 
@@ -29,23 +28,24 @@ module.exports = async (request, response) => {
         bot.on('message', async (msg) => {
           const { chat, contact = null, text } = msg;
           const { id: chatId } = chat;
+
           bot.sendMessage(chatId, `ID ${chatId}`);
+
           if (text == '/admin' && isAdmin(chatId)) {
             bot.sendMessage(chatId, `Возможности администратора`, { reply_markup: getAdminKeyboard()});
           }
         });
 
-        // Ensure that this is a message being sent
         if (body.message) {
-            // Retrieve the ID for this chat
-            // and the text that the user sent
             const { chat: { id }, text } = body.message;
 
-            // Create a message to send back
-            // We can use Markdown inside this
+            if (text == '/admin' && isAdmin(chatId)) {
+              bot.sendMessage(chatId, `Возможности администратора`, { reply_markup: getAdminKeyboard()});
+            }
+            if (text == '/start') {
+              await bot.sendMessage(chatId, 'Здравствуйте! \n Это бот района Yacht Party', mainInlineKeyboard);
+            }
             const message = `✅ Thanks for your message: *"${text}"*\nHave a great day! 👋🏻`;
-
-            // Send our new message back in Markdown
             await bot.sendMessage(id, message, {parse_mode: 'Markdown'});
         }
     }
