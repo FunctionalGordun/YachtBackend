@@ -2,7 +2,7 @@
 require('dotenv').config();
 const TelegramBot = require('node-telegram-bot-api');
 const { isAdmin, getEventMessage, getEventInlineKeyboard, getAdminKeyboard } = require('../bot/utils');
-const { getTGEvents } = require('../controller/eventController');
+const { getEvents } = require('../controller/eventController');
 const { mainInlineKeyboard, bookingKeyboard, CALLBACK_DATA } = require('../bot/constants/constants')
 
 process.env.NTBA_FIX_319 = 'test';
@@ -34,7 +34,8 @@ module.exports = async (request, response) => {
           switch (data) {
             case CALLBACK_DATA.showEvent.callback_data:
               console.log('load event')
-              fetch('https://yacht-backend.vercel.app/api/events/').then(res => {
+              // fetch('https://yacht-backend.vercel.app/api/events/').then(res => {
+              getEvents().then(res => {
                 if (res) {
                   console.log('RES', res)
                   res.map(async (event) => {
