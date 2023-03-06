@@ -10,7 +10,7 @@ const eventsRoutes = require('../routes/eventsRoutes');
 const bookingRoutes = require('../routes/bookingEventRoutes');
 const adminRoutes = require('../routes/adminRoutes');
 
-connectBot();
+// connectBot();
 
 connectDB();
 const app = express();
