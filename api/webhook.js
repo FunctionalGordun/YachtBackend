@@ -12,7 +12,7 @@ const bot = new TelegramBot(process.env.BOT_TOKEN);
 module.exports = async (request, response) => {
     try {
         const { body } = request;
-        const { message, callback_query } = request;
+        const { message, callback_query } = body;
 
         console.log(body)
         if (message) {
