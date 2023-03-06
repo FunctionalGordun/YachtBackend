@@ -4,7 +4,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const { isAdmin, getEventMessage, getEventInlineKeyboard, getAdminKeyboard } = require('../bot/utils');
 const { getEvents } = require('../controller/eventController');
 const { mainInlineKeyboard, bookingKeyboard, CALLBACK_DATA } = require('../bot/constants/constants')
-
+const fetch = require('node-fetch');
 process.env.NTBA_FIX_319 = 'test';
 
 const bot = new TelegramBot(process.env.BOT_TOKEN);
@@ -34,8 +34,8 @@ module.exports = async (request, response) => {
           switch (data) {
             case CALLBACK_DATA.showEvent.callback_data:
               console.log('load event')
-              // fetch('https://yacht-backend.vercel.app/api/events/').then(res => {
-              getEvents().then(res => {
+              // getEvents().then(res => {
+              fetch('https://yacht-backend.vercel.app/api/events/').then(res => {
                 if (res) {
                   console.log('RES', res)
                   res.map(async (event) => {
