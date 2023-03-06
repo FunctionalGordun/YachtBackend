@@ -33,6 +33,7 @@ module.exports = async (request, response) => {
           console.log('DATA', data)
           switch (data) {
             case CALLBACK_DATA.showEvent.callback_data:
+              console.log('load event')
               getTGEvents().then(res => {
                 if (res) {
                   res.map(async (event) => {
