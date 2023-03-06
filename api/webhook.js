@@ -26,6 +26,15 @@ module.exports = async (request, response) => {
           await bot.sendMessage(chatId, 'Здравствуйте! \n Это бот района Yacht Party', mainInlineKeyboard);
         });
 
+        bot.on('message', async (msg) => {
+          const { chat, contact = null, text } = msg;
+          const { id: chatId } = chat;
+          bot.sendMessage(chatId, `ID ${chatId}`);
+          if (text == '/admin' && isAdmin(chatId)) {
+            bot.sendMessage(chatId, `Возможности администратора`, { reply_markup: getAdminKeyboard()});
+          }
+        });
+
         // Ensure that this is a message being sent
         if (body.message) {
             // Retrieve the ID for this chat
