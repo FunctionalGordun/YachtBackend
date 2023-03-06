@@ -26,6 +26,7 @@ module.exports = async (request, response) => {
         });
 
         bot.on('message', async (msg) => {
+          console.log('MESSAGE')
           const { chat, contact = null, text } = msg;
           const { id: chatId } = chat;
 
@@ -37,13 +38,14 @@ module.exports = async (request, response) => {
         });
 
         if (body.message) {
+            console.log('body.message', body.message)
             const { chat: { id }, text } = body.message;
 
-            if (text == '/admin' && isAdmin(chatId)) {
-              bot.sendMessage(chatId, `Возможности администратора`, { reply_markup: getAdminKeyboard()});
+            if (text == '/admin' && isAdmin(id)) {
+              bot.sendMessage(id, `Возможности администратора`, { reply_markup: getAdminKeyboard()});
             }
             if (text == '/start') {
-              await bot.sendMessage(chatId, 'Здравствуйте! \n Это бот района Yacht Party', mainInlineKeyboard);
+              await bot.sendMessage(id, 'Здравствуйте! \n Это бот района Yacht Party', mainInlineKeyboard);
             }
             const message = `✅ Thanks for your message: *"${text}"*\nHave a great day! 👋🏻`;
             await bot.sendMessage(id, message, {parse_mode: 'Markdown'});
