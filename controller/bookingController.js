@@ -1,5 +1,5 @@
 const User = require('../models/User');
-const { bot } = require('../bot');
+const bot = require('../config/bot');
 
 const addBookingEvent = async (req, res) => {
   try {
