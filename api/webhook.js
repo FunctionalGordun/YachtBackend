@@ -6,35 +6,19 @@ const { connectBot } = require('../bot/index');
 module.exports = async (request, response) => {
     try {
       const bot = new telegramBot (process.env.BOT_TOKEN, {polling:true});
-
       const { body } = request;
 
-      // Ensure that this is a message being sent
       if (body.message) {
-          // Retrieve the ID for this chat
-          // and the text that the user sent
           const { chat: { id }, text } = body.message;
-
-          // Create a message to send back
-          // We can use Markdown inside this
-          const message = `✅ Thanks for your message: *"${text}"*\nHave a great day! 👋🏻`;
-
-          // Send our new message back in Markdown
+          const message = `Сообщение: *"${text}"*\n 👋🏻`;
           await bot.sendMessage(id, message, {parse_mode: 'Markdown'});
           bot.onText(/\/start/, async (msg) => {
             const chatId = msg.chat.id;
           
-            await bot.sendMessage(chatId, 'Здравствуйте! \n Это бот района Yacht Party');
+            await bot.sendMessage(chatId, 'Здравствуйте! \n Это бот Yacht Party');
           });
       }
-
-      // bot.onText(/\/start/, async (msg) => {
-      //   const chatId = msg.chat.id;
-      
-      //   await bot.sendMessage(chatId, 'Здравствуйте! \n Это бот района Yacht Party');
-      // });
-    }
-    catch(error) {
+    } catch(error) {
         // If there was an error sending our message then we 
         // can log it into the Vercel console
         console.error('Error sending message');
