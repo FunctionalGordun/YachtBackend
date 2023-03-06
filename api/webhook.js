@@ -14,7 +14,7 @@ module.exports = async (request, response) => {
         const { body } = request;
         const { message, callback_query } = request;
 
-        console.log('body', body)
+        console.log(body)
         if (message) {
             const { chat: { id }, text } = message;
 
@@ -29,9 +29,6 @@ module.exports = async (request, response) => {
         if (callback_query) {
           const { data, message } = callback_query;
           const { chat: { id }, text } = message;
-
-          
-          // const { chat: { id }, text } = callback_query;
           switch (data) {
             case CALLBACK_DATA.showEvent.callback_data:
               getTGEvents().then(res => {
