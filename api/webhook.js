@@ -1,16 +1,14 @@
 
 require('dotenv').config();
-// const TelegramBot = require('node-telegram-bot-api');
-const bot = require('../config/bot');
-const { isAdmin, getEventMessage, getEventInlineKeyboard, getAdminKeyboard } = require('../bot/utils');
-const { mainInlineKeyboard, bookingKeyboard, CALLBACK_DATA } = require('../bot/constants/constants')
+const TelegramBot = require('node-telegram-bot-api');
+// const bot = require('../config/bot');
+const { isAdmin, getEventMessage, getEventInlineKeyboard, getAdminKeyboard, getMainInlineKeyboard, CALLBACK_DATA } = require('../bot/utils');
 const fetch = require('node-fetch');
 process.env.NTBA_FIX_319 = 'test';
 
-// const bot = new TelegramBot(process.env.BOT_TOKEN);
-
 module.exports = async (request, response) => {
     try {
+        const bot = new TelegramBot(process.env.BOT_TOKEN);
         const { body } = request;
         const { message, callback_query } = body;
 
@@ -19,7 +17,7 @@ module.exports = async (request, response) => {
             const { chat: { id }, text } = message;
 
           if (text == '/start') {
-            await bot.sendMessage(id, 'Здравствуйте! \n Это бот Yacht Party', mainInlineKeyboard);
+            await bot.sendMessage(id, 'Здравствуйте! \n Это бот Yacht Party', { reply_markup: getMainInlineKeyboard()});
           }
           if (text == '/admin' && isAdmin(id)) {
             bot.sendMessage(id, `Возможности администратора`, { reply_markup: getAdminKeyboard()});
@@ -41,7 +39,7 @@ module.exports = async (request, response) => {
                   await bot.sendPhoto(
                     id,
                     event.image,
-                    { caption: getEventMessage(event), reply_markup: getEventInlineKeyboard(event._id.toString(), isAdmin(id), event?.latitude, event?.longitude)}
+                    { caption: getEventMessage(event), reply_markup: getEventInlineKeyboard(event._id.toString(), isAdmin(id), event?.address?.latitude, event?.address?.longitude)}
                   )
                 })
                 return ;

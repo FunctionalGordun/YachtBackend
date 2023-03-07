@@ -3,10 +3,8 @@ require('dotenv').config();
 
 const token = process.env.BOT_TOKEN;
 const bot = new telegramBot (token, {polling:true});
-
-const { mainInlineKeyboard, bookingKeyboard, CALLBACK_DATA } = require('./constants/constants')
 const { getTGEvents } = require('../controller/eventController');
-const { isAdmin, getEventMessage, getEventInlineKeyboard, getAdminKeyboard } = require('./utils');
+const { isAdmin, getEventMessage, getEventInlineKeyboard, getAdminKeyboard, getMainInlineKeyboard, CALLBACK_DATA } = require('./utils');
 
 const connectBot = async () => {
   try {
@@ -20,7 +18,7 @@ const connectBot = async () => {
     bot.onText(/\/start/, async (msg) => {
       const chatId = msg.chat.id;
     
-      await bot.sendMessage(chatId, 'Здравствуйте! \n Это бот района Yacht Party', mainInlineKeyboard);
+      await bot.sendMessage(chatId, 'Здравствуйте! \n Это бот района Yacht Party', {reply_markup: getMainInlineKeyboard()});
     });
 
 
