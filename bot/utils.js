@@ -10,10 +10,10 @@ const getEventMessage = ({title, date, description, price, capacity}) => {
   ${price}`
 }
 
-const getEventInlineKeyboard = (id, isAdmin) => {
+const getEventInlineKeyboard = (id, isAdmin, lat, log) => {
    const inline_keyboard = [
     [{ text: 'Забронировать', web_app: {url: `${process.env.WEB_APP_URL}/booking/?eventId=${id}`} }],
-    [{ text: 'Подробнее', callback_data: 'moreinfo' }],
+    [{ text: 'Как добраться?', callback_data: `location:${lat}:${log}` }],
   ]
     if (isAdmin) {
       inline_keyboard.push([{ text: 'Посетители',  web_app: {url: `${process.env.WEB_APP_URL}/visitors/?eventId=${id}`} }]);

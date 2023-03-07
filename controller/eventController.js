@@ -36,8 +36,9 @@ const getEventById = async (req, res) => {
 const updateEvent = async (req, res) => {
   try {
     const { id } = req.params;
-    const event = await Event.findById(req.params.id);
+    const event = await Event.findById(id);
     if (event) {
+      event.image = req.body.image;
       event.title = req.body.title;
       event.date = req.body.date;
       event.description = req.body.description;

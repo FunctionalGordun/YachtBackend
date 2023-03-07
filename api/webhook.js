@@ -27,7 +27,10 @@ module.exports = async (request, response) => {
         }
 
         if (callback_query) {
-          const { data, message } = callback_query;
+          const { data: callBackData, message } = callback_query;
+          const tmp = callBackData.split(':');
+          const data = tmp[0];
+
           const { chat: { id }, text } = message;
 
           if (data == CALLBACK_DATA.showEvent.callback_data) {
@@ -37,35 +40,20 @@ module.exports = async (request, response) => {
               events.map(async (event) => {
                   await bot.sendPhoto(
                     id,
-                    'https://res.cloudinary.com/zoonyanya/image/upload/v1666294757/cld-sample-2.jpg',
-                    { caption: getEventMessage(event), reply_markup: getEventInlineKeyboard(event._id.toString(), isAdmin(id)) }
+                    event.image,
+                    { caption: getEventMessage(event), reply_markup: getEventInlineKeyboard(event._id.toString(), isAdmin(id), event?.latitude, event?.longitude)}
                   )
                 })
                 return ;
             } else {
-              return bot.sendMessage(id, 'Событие не найдены');
+              return bot.sendMessage(id, 'События не найдены');
             }
           }
-          // switch (data) {
-          //   case CALLBACK_DATA.showEvent.callback_data:
-          //     const response = await fetch("https://yacht-backend.vercel.app/api/events/");
-          //     if (response.ok) {
-          //       const events = await response.json();
-          //       events.map(async (event) => {
-          //           await bot.sendPhoto(
-          //             id,
-          //             'https://res.cloudinary.com/zoonyanya/image/upload/v1666294757/cld-sample-2.jpg',
-          //             { caption: getEventMessage(event), reply_markup: getEventInlineKeyboard(event._id.toString(), isAdmin(id)) }
-          //           )
-          //         })
-          //     } else {
-          //       bot.sendMessage(id, 'Событие не найдены');
-          //     }
-          //    break;
-          //   case CALLBACK_DATA.yachts.callback_data:
-          //    return bot.sendMessage(id, 'Яхты яхты');
-          //    break;
-          // }
+        } else if (data == 'location') {
+          if (tmp[1] && tmp[2])
+            return await bot.sendLocation(id, Number(tmp[1]), Number(tmp[2]));
+          else
+            return await bot.sendMessage(id, 'Не удалось загрузить координаты события');
         }
     }
     catch(error) {
