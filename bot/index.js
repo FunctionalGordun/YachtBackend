@@ -54,7 +54,7 @@ const connectBot = async () => {
                 await bot.sendPhoto(
                   chatId,
                   event.image,
-                  { caption: getEventMessage(event), reply_markup: getEventInlineKeyboard(event._id.toString(), isAdmin(id), event?.address?.latitude, event?.address?.longitude)}
+                  { caption: getEventMessage(event), reply_markup: getEventInlineKeyboard(event._id.toString(), isAdmin(chatId), event?.address?.latitude, event?.address?.longitude)}
                   )
               })
             }
