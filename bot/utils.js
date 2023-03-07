@@ -26,7 +26,7 @@ const getEventMessage = ({title, date, description, price, capacity}) => {
 const getMainInlineKeyboard = () => {
   const inline_keyboard = [
     [{ text: CALLBACK_DATA.showEvent.title, callback_data: CALLBACK_DATA.showEvent.callback_data }],
-    [{ text: CALLBACK_DATA.yachts.title, callback_data: CALLBACK_DATA.yachts.callback_data }],
+    // [{ text: CALLBACK_DATA.yachts.title, callback_data: CALLBACK_DATA.yachts.callback_data }],
   ];
   return { inline_keyboard };
 }

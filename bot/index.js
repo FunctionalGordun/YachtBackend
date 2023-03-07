@@ -12,7 +12,6 @@ const connectBot = async () => {
     bot.setMyCommands([
       {command: '/start', description: 'Приветствие'},
       {command: '/events', description: 'Список мероприятий'},
-      {command: '/yacht', description: 'Яхта'},
     ])
 
     bot.onText(/\/start/, async (msg) => {
@@ -27,6 +26,24 @@ const connectBot = async () => {
       await  bot.sendMessage(chatId, `Возможности администратора`, { reply_markup: getAdminKeyboard()});
     });
 
+    bot.onText(/\/events/, async (msg) => {
+      const chatId = msg.chat.id;
+
+      getTGEvents().then(res => {
+        if (res) {
+          res.map(async (event) => {
+            await bot.sendPhoto(
+              chatId,
+              event.image,
+              { caption: getEventMessage(event), reply_markup: getEventInlineKeyboard(event._id.toString(), isAdmin(chatId), event?.address?.latitude, event?.address?.longitude)}
+              )
+          })
+        }
+      }).catch(err => {
+        return bot.sendMessage(chatId, 'События не найдены');
+      })
+    });
+
     bot.on('message', async (msg) => {
       const { chat, contact = null, text } = msg;
       const { id: chatId } = chat;
@@ -35,16 +52,15 @@ const connectBot = async () => {
         const { phone_number, first_name, last_name, user_id } = contact;
         bot.sendMessage(chatId, `Вы отправили свой телефон ${phone_number}`);
       }
-      if (text == '/admin' && isAdmin(chatId)) {
-        bot.sendMessage(chatId, `Возможности администратора`, { reply_markup: getAdminKeyboard()});
-      }
     });
 
 
 
     bot.on('callback_query', async (msg) => {
-      const { data, message } = msg;
+      const { data: callBackData, message } = msg;
       const { id: chatId } = message.chat;
+      const tmp = callBackData.split(':');
+      const data = tmp[0];
 
       switch (data) {
         case CALLBACK_DATA.showEvent.callback_data:
@@ -59,11 +75,14 @@ const connectBot = async () => {
               })
             }
           }).catch(err => {
-            return bot.sendMessage(id, 'События не найдены');
+            return bot.sendMessage(chatId, 'События не найдены');
           })
          break;
-        case 'location':
-         return bot.sendMessage(chatId, 'Локация');
+          case 'location':
+            if (tmp[1] && tmp[2])
+            return await bot.sendLocation(chatId, Number(tmp[1]), Number(tmp[2]));
+          else
+            return await bot.sendMessage(chatId, 'Не удалось загрузить координаты события');
          break;
       }
     })
