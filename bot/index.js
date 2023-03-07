@@ -62,6 +62,8 @@ const connectBot = async () => {
       const tmp = callBackData.split(':');
       const data = tmp[0];
 
+      console.log('chatId', chatId)
+
       switch (data) {
         case CALLBACK_DATA.showEvent.callback_data:
           getTGEvents().then(res => {
