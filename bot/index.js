@@ -48,9 +48,12 @@ const connectBot = async () => {
       const { chat, contact = null, text } = msg;
       const { id: chatId } = chat;
 
-      if (contact) {
-        const { phone_number, first_name, last_name, user_id } = contact;
-        bot.sendMessage(chatId, `Вы отправили свой телефон ${phone_number}`);
+      // if (contact) {
+      //   const { phone_number, first_name, last_name, user_id } = contact;
+      //   bot.sendMessage(chatId, `Вы отправили свой телефон ${phone_number}`);
+      // }
+      if (text == 'getId') {
+        return bot.sendMessage(chatId, chatId);
       }
     });
 
@@ -61,8 +64,6 @@ const connectBot = async () => {
       const { id: chatId } = message.chat;
       const tmp = callBackData.split(':');
       const data = tmp[0];
-
-      bot.sendMessage(chatId, chatId);
 
       switch (data) {
         case CALLBACK_DATA.showEvent.callback_data:
