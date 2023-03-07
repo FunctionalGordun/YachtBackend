@@ -5,12 +5,12 @@ const cors = require('cors');
 // const { requestLogger, logger } = require('../logger')
 
 const connectDB = require('../config/db');
-const { connectBot } = require('../bot/index');
+// const { connectBot } = require('../bot/index');
 const eventsRoutes = require('../routes/eventsRoutes');
 const bookingRoutes = require('../routes/bookingEventRoutes');
 const adminRoutes = require('../routes/adminRoutes');
 
-connectBot();
+// connectBot();
 
 connectDB();
 const app = express();
