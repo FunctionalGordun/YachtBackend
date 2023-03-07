@@ -1,9 +1,11 @@
 const User = require('../models/User');
+const Event = require('../models/Event');
 // const bot = require('../bot/index');
 
 const addBookingEvent = async (req, res) => {
   try {
     const {queryId, name, phone, eventId, visitors} = req.body;
+    const visitorsLen = visitors.length
     const bookingUser = await User.find({ phone: phone});
     if (bookingUser && bookingUser.length !== 0) {
       const existingUser = bookingUser[0];
@@ -13,6 +15,10 @@ const addBookingEvent = async (req, res) => {
       const newBookingUser = new User({name, phone, events: [{ eventId, visitors }]});
       await newBookingUser.save();
     }
+
+    const event = await Event.findById(id);
+    event.avaliable = event.avaliable - visitorsLen;
+    await event.save();
     // if (bot && queryId) {
     //   await bot.answerWebAppQuery(queryId, {
     //       type: 'article',
