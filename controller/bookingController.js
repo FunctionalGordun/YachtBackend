@@ -1,5 +1,5 @@
 const User = require('../models/User');
-const bot = require('../config/bot');
+// const bot = require('../config/bot');
 
 const addBookingEvent = async (req, res) => {
   try {
@@ -13,16 +13,16 @@ const addBookingEvent = async (req, res) => {
       const newBookingUser = new User({name, phone, events: [{ eventId, visitors }]});
       await newBookingUser.save();
     }
-    if (bot && queryId) {
-      await bot.answerWebAppQuery(queryId, {
-          type: 'article',
-          id: queryId,
-          title: 'Успешное бронирование',
-          input_message_content: {
-              message_text: `Success booking. ${visitors.length} visitors`
-          }
-      })
-    }
+    // if (bot && queryId) {
+    //   await bot.answerWebAppQuery(queryId, {
+    //       type: 'article',
+    //       id: queryId,
+    //       title: 'Успешное бронирование',
+    //       input_message_content: {
+    //           message_text: `Success booking. ${visitors.length} visitors`
+    //       }
+    //   })
+    // }
     res.status(200).send({
       message: 'Бронирование успешно добавлено!',
       // id: newBookingEvent._id
