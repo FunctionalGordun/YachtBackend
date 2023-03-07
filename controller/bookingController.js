@@ -16,7 +16,7 @@ const addBookingEvent = async (req, res) => {
       await newBookingUser.save();
     }
 
-    const event = await Event.findById(id);
+    const event = await Event.findById(eventId);
     event.avaliable = event.avaliable - visitorsLen;
     await event.save();
     // if (bot && queryId) {
