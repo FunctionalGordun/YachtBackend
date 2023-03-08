@@ -2,8 +2,9 @@ const Event = require('../models/Event');
 
 const getEvents = async (req, res) => {
   try {
-    // const { start, end } = req.params;
-    const events = await Event.find({}).sort({ _id: -1 });
+    const { isFull = false } = req?.query || {};
+    var isTrueFull = isFull === 'true';
+    const events = await Event.find(isTrueFull ? {} : { active: true }).sort({ _id: -1 });
     res.send(events);
   } catch (err) {
     res.status(500).send({
@@ -47,6 +48,7 @@ const updateEvent = async (req, res) => {
       event.capacity = req.body.capacity;
       event.avaliable = req.body.avaliable;
       event.address = req.body.address;
+      event.active = req.body.active;
       await event.save();
       res.send({ message: 'Событие обновлено!' });
     }
@@ -85,11 +87,28 @@ const deleteEvent = (req, res) => {
   });
 };
 
+const hideEvent = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const event = await Event.findById(id);
+    if (event) {
+      event.active = req.body.status;
+      await event.save();
+      res.send({ message: 'Событие обновлено!' });
+    }
+  } catch (err) {
+    res.status(500).send({
+      message: err.message,
+    });
+  }
+};
+
 module.exports = {
   getEvents,
   getTGEvents,
   getEventById,
   updateEvent,
   addEvent,
-  deleteEvent
+  deleteEvent,
+  hideEvent
 };

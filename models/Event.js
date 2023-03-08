@@ -50,6 +50,10 @@ const eventSchema = new mongoose.Schema({
     },
     required: true,
   },
+  active: {
+    type: Boolean,
+    required: false,
+  }
 });
 
 const Event = mongoose.model('Event', eventSchema);

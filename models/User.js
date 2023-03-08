@@ -23,6 +23,10 @@ const userSchema = new mongoose.Schema(
       }],
       required: false,
     },
+    source: {
+      type: String,
+      required: false,
+    }
   },
 );
 

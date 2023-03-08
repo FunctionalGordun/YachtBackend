@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { getEvents, getEventById, updateEvent, addEvent, deleteEvent } = require('../controller/eventController');
+const { getEvents, getEventById, updateEvent, addEvent, deleteEvent, hideEvent } = require('../controller/eventController');
 
 router.get('/', getEvents);
 
@@ -11,8 +11,9 @@ router.put('/upd/:id', updateEvent);
 
 router.post('/add', addEvent);
 
-//delete a category
-router.patch('/:id', deleteEvent);
+// router.patch('/:id', deleteEvent);
+
+router.put('/hide/:id', hideEvent);
 
 // router.post('/payment', getPayment);
 
